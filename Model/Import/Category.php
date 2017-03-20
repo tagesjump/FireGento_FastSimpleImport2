@@ -1317,7 +1317,7 @@ class Category extends \Magento\ImportExport\Model\Import\AbstractEntity
                         $tableData[] = [
                             $entityFieldName => $entityId,
                             'attribute_id' => $attributeId,
-                            'store_id' => $storeId,
+                            'store_id' => 0,
                             'value' => $storeValue
                         ];
                     }
